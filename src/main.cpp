@@ -1,7 +1,5 @@
-// main.cpp
+/// main.cpp
 #include "vector_math.h"
-
-#include <iostream>
 #include <vector>
 
 int main() {
@@ -10,10 +8,7 @@ int main() {
     std::vector<int> vec3 = sum_vecs(vec1, vec2);
 
     // print the resulting vector
-    int size = vec3.size();
-    for (int i = 0; i < size; i++) {
-        std::cout << vec3[i] << " ";
-    }
-    std::cout << "\n";
+    print_vec(vec3);
+    
     return 0;
 }
