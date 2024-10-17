@@ -1,9 +1,8 @@
 // main.cpp
+#include "vector_math.h"
+
 #include <iostream>
 #include <vector>
-
-// function prototype
-std::vector<int> sum_vecs(std::vector<int> const &left, std::vector<int> const &right);
 
 int main() {
     std::vector<int> vec1{1, 2, 3, 4, 5};
